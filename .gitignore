@@ -1,0 +1,12 @@
+bin/
+build/
+out/
+data*/
+*.o
+*.obj
+*.exe
+*.log
+.idea/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
