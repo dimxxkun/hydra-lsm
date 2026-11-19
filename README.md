@@ -1,6 +1,6 @@
 # Hydra-LSM
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Noncommercial](https://img.shields.io/badge/License-Noncommercial-blue.svg)](LICENSE)
 
 **Hydra-LSM** is an embeddable Log-Structured Merge-Tree (LSM-Tree) key-value storage engine implemented in modern C++17. Inspired by Google LevelDB and RocksDB, Hydra-LSM achieves high write-throughput via sequential disk writes, immutable SSTables, and Bloom filter lookups.
 
@@ -78,4 +78,10 @@ g++ -std=c++17 -Iinclude src/*.cpp -o bin/hydra_lsm
 ```
 
 ## License
-MIT © [dimxxkun](https://github.com/dimxxkun)
+[Noncommercial license](LICENSE) © [dimxxkun](https://github.com/dimxxkun)
+
+## Commercial permission
+
+Original material in this repository is available under the [Noncommercial Use and Commercial Permission License](LICENSE). **Noncommercial use is free. Commercial use requires prior written permission and a separate written agreement specifying the scope and agreed fee.** Contact [work.abdulfatai@gmail.com](mailto:work.abdulfatai@gmail.com) with the repository name and intended use.
+
+Portfolio review and recruitment evaluation are permitted without a fee. Third-party components retain their own licenses. Permissions already granted for earlier versions remain valid; the new terms do not revoke those grants. These are custom source-available terms, not an OSI-approved open-source license.
